@@ -1,0 +1,36 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Renv (optional)
+renv/library/
+renv/local/
+renv/cellar/
+renv/lock/
+renv/python/
+renv/staging/
+
+# Pipeline-generated intermediates (regenerable from the raw CSV + scripts)
+# These are committed-by-default to make the repo browsable without rerunning,
+# but uncomment to exclude if you prefer a code-only repo:
+# data/Conflict/ACLED/acled_kenya_clean.rds
+# data/Conflict/ACLED/acled_kenya_panel.rds
+
+# Temp
+tmp/
+*.tmp
+*.log
+
+# Never commit credentials
+.Renviron
+.env

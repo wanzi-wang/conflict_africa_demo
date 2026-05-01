@@ -1,0 +1,7 @@
+- [User profile](user_profile.md) — master's student, intermediate R, political-economy research workflow
+- [Feedback: documentation style](feedback_documentation.md) — concise, first-time-reader friendly, verify claims with data
+- [Feedback: specifications](feedback_specifications.md) — show formal econometric specifications in code blocks before writing regression code
+- [Feedback: simplify code](feedback_simplify_code.md) — workflow-specific R, no abstractions/helpers/no-ops unless logic repeats ≥3 times
+- [Feedback: results format](feedback_no_txt_outputs.md) — CSV + PNG only; no .txt or .tex outputs from analysis scripts
+- [Feedback: no unilateral data creation](feedback_no_unilateral_data_creation.md) — never create CSV/RDS/derived data without permission; write code first, run only with approval
+- [Project status (demo)](project_status.md) — Base_demo: standalone Kenya slice; isolation from source project enforced by CLAUDE.md

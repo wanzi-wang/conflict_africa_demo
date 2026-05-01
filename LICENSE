@@ -1,0 +1,10 @@
+Copyright (c) 2026 Wanzi Wang. All rights reserved.
+
+This repository is published as a portfolio artifact for academic and
+pre-doctoral applications. The code, custom AI workflow artifacts in
+.claude/ (rules, skills, memory patterns), and accompanying documentation
+are shown for review purposes only. No license to copy, modify, redistribute,
+or reuse is granted. Please contact the author for permission before reuse.
+
+Third-party data included in data/ (DoD Base Structure Reports, ACLED,
+GHSL, World Bases Watch) is governed by the original providers' terms.
