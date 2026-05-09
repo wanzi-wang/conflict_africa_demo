@@ -4,7 +4,7 @@ This file gives Claude Code persistent instructions for this repository.
 
 ## Project identity
 
-This is a **standalone, self-contained** demonstration repository. It accompanies a pre-doctoral application and exists to showcase an AI-integrated empirical research workflow on public conflict-event data. It is **not** a working copy of any other research project; it is an independent codebase with its own data slice, paths, and lifecycle.
+This is a **standalone, self-contained** demonstration repository showing an AI-integrated empirical research workflow on public conflict-event data. It is **not** a working copy of any other research project; it is an independent codebase with its own data slice, paths, and lifecycle.
 
 ## CRITICAL: Isolation
 
@@ -74,4 +74,4 @@ The single dataset in this repo is a Kenya slice of ACLED (Armed Conflict Locati
 
 ## License
 
-All rights reserved — portfolio artifact for application review. See `LICENSE`.
+All rights reserved. See `LICENSE`.

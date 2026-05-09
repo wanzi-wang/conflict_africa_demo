@@ -1,12 +1,12 @@
 # conflict_africa_demo — AI-Integrated Research Workflow Demo
 
-A standalone demonstration of an AI-integrated empirical research workflow, built around a public ACLED conflict-event slice for Kenya, 2010-2020. This repo accompanies a pre-doctoral application and is intended to show:
+A standalone demonstration of an AI-integrated empirical research workflow, built around a public ACLED conflict-event slice for Kenya, 2010-2020. The repo shows:
 
 1. **Reproducible R pipelines** with explicit verification steps
 2. **AI workflow infrastructure** — custom rules, slash commands, and persistent memory used to collaborate with Claude Code
 3. **Engineering discipline** in data cleaning, aggregation, and validation
 
-> This is a public portfolio extract. No research findings are reproduced; the analysis stops at descriptive material.
+> No research findings are reproduced; the analysis stops at descriptive material.
 
 ## Quick tour
 
@@ -49,9 +49,7 @@ Rscript code/d_04_descriptive_figure.R    # → output/figure_1_kenya_acled_even
 
 All paths are relative to the repo root. The pipeline is fully sandboxed.
 
-## Why this matters for the application
-
-The position asks for *"advanced ability to use modern AI tools for coding, data analysis, and research workflows."* This repo demonstrates:
+## What this repo demonstrates
 
 - **Going beyond chat**: a structured `.claude/` directory with rules that enforce verification, plan-first workflow, and citation discipline; custom skills (`/spec`, `/review-r`, `/pipeline-debug`, `/docupdate`) that encode domain workflows; persistent memory that carries context across sessions.
 - **AI-driven discipline**: real examples in [`docs/ai-workflow.md`](docs/ai-workflow.md) of how I use AI to catch silent bugs, design verification rules, and prevent black-box methodology adoption.
@@ -59,4 +57,4 @@ The position asks for *"advanced ability to use modern AI tools for coding, data
 
 ## License
 
-All rights reserved. Published for application review — see [`LICENSE`](LICENSE). Data is derived from public sources (ACLED) — see [`data/README.md`](data/README.md) for provenance.
+All rights reserved — see [`LICENSE`](LICENSE). Data is derived from public sources (ACLED) — see [`data/README.md`](data/README.md) for provenance.

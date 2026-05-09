@@ -65,7 +65,7 @@ A short, directive file at the repo root that pins the most important rules for 
 
 **The lesson encoded.** This is the meta-pattern: **AI is most useful when you use it to encode your own discipline.** The rule isn't telling Claude what *Claude* should know — it's telling Claude what *I* need to be confronted with before I let new code into the pipeline. The same principle drives `no-unverified-citations.md` (preventing fabricated references) and `plan-first.md` (preventing sprint-then-rewrite cycles).
 
-## What the reviewer should take away
+## Takeaways
 
 The R code in `code/` is fine but unremarkable on its own — it's a four-step ACLED aggregation with checks. What's distinctive is the scaffolding around it:
 
@@ -73,5 +73,3 @@ The R code in `code/` is fine but unremarkable on its own — it's a four-step A
 - A verification-first pipeline where every data-construction script has a verifier and the verifier exits a known code
 - A memory system that carries judgment from one session to the next
 - A working pattern of *"AI catches a bug class → I write a rule that prevents the next instance"*
-
-This is what the position description means by *"advanced ability to use modern AI tools for coding, data analysis, and research workflows."*
